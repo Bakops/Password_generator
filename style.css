@@ -1,0 +1,76 @@
+* {
+  margin-top: 0%;
+}
+
+@font-face {
+  font-family: DREPH;
+  src: url(font/DREPHONIC.ttf);
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  color: #ffffff;
+  font-family: DREPH;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+section {
+  position: absolute;
+  top: 30%;
+  left: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.password_box input {
+  width: 400px;
+  height: 60px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  letter-spacing: 3px;
+  text-align: center;
+  outline: 0;
+}
+
+.buttons {
+  width: 62%;
+  margin-top: 20px;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.btn-first:nth-child(1) {
+  width: 68%;
+  background-color: #289f91;
+  padding: 10px;
+  color: #ffffff;
+  border: none;
+}
+
+#btn-first {
+  width: 30%;
+  background-color: transparent;
+  padding: 10px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-first:nth-child(1):hover {
+  transition: all 0.3s ease-in-out;
+  background: #000000;
+  color: #ffffff;
+}
+
+#btn-first:hover {
+  transition: all 0.3s ease-in-out;
+  background: #000000;
+  color: #ffffff;
+}

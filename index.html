@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GÉNÉRATEUR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h1>
+        <span>GENERATEUR</span> <span>DE</span> <span>MOT</span>
+        <span>DE</span> <span>PASSE</span>
+      </h1>
+      <div class="password_box">
+        <input type="text" id="password" readonly />
+      </div>
+      <div class="buttons">
+        <button class="btn-first" onclick="getPassword()">GÉNÉRER</button>
+        <button id="btn-first" onclick="copyPassword()">COPIER</button>
+      </div>
+    </section>
+
+    <script src="anim.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="anim2.js"></script>
+  </body>
+</html>
